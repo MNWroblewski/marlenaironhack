@@ -1,0 +1,131 @@
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4em;
+    color:rgb(119, 0, 255);
+    font-style: italic;
+   
+
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 2.5em;
+    color:navy;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+blockquote {
+    font-family: 'Nunito', sans-serif;
+}
+
+cite {
+    font-family: 'Open Sans', sans-serif;
+}
+
+i {
+    vertical-align: middle;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    padding: 5%;
+}
+#hero {
+    background-color: blueviolet;
+    color: white;
+    height: 900px;
+}
+
+#features {
+    width: 70%;
+}
+
+#subscribe {
+
+}
+
+#subscribe > div {
+    text-align: end;
+}
+
+#newsletter {
+    text-align: center;
+    height: 540px;
+    flex-direction: column;
+}
+
+nav > a {
+    padding: 8px;
+}
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color:white
+}
+a:hover {
+    color: rebeccapurple;
+}
+#site-footer {
+    background-color: blueviolet;
+    padding: 10 px 30 px;
+    text-align: center;
+}
+
+/* Classes */
+.container {
+    display:flex;
+}
+.feat-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10 px 34 px rgba(0, 0, 0, 0.15);
+}
+
+/* Forms */
+input {
+    padding: 16px 24px;
+    margin: 8px 0px;
+    border-radius: 20px;
+    border: 0;
+    background: white;
+    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 3);
+    box-sizing: border-box;
+}
+button {
+    background: #9BDBE7;
+    border-radius: 20px;
+    padding: 16px 24px;
+    margin: 8px 0px;
+    border: 0;
+    color: white;
+
+}

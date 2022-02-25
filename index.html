@@ -9,9 +9,22 @@
     />
     <meta name="keywords" content= "Marlena, UX/UI Designer, Design, Website, HTML, CSS"
     />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:ital,wght@0,400;1,500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link 
+    href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" 
+    rel="stylesheet">
+
+
 </head>
 <body>
-    <header>
+    <header class="container">
         <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg
         " alt="Orange Logo">
         <nav>
@@ -22,7 +35,7 @@
     </header>
     <!-- Hero Section - Start -->
     <section>
-<h1>Heading 1</h1>
+<h1 style="color: rgb(66, 1, 151)">Heading 1</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi quaerat aliquam minima optio vero illum quibusdam quam molestiae ipsum.
 </p>
 
@@ -33,7 +46,8 @@
 <!-- Hero Section End -->
 
 <!-- Features Section - Start -->
-   <section>
+   <section id="features" class="container">
+       <div class="feat-wrapper"></div>
        <!-- Card 1 - Start -->
        <div>
            <img src="https://source.unsplash.com/300x200/?kittens, sleeping" alt="">
@@ -68,12 +82,14 @@
    <!-- Features Section - End -->
 
    <!-- Subscribe Section - Start -->
-   <section>
+   <section id="subscribe" class="container">
     <img src="https://source.unsplash.com/500x650/?cats" alt="">
+    <div>
       <h1>It tastes like Premium</h1>
       <h3>Better than an apple</h3>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente exercitationem soluta alias ipsa, deserunt voluptate reiciendis odio ipsum beatae, deleniti accusamus. Libero aut debitis dolorum illo facilis animi magnam quia voluptatum qui earum aliquam rem fuga doloremque quaerat nam maxime esse consectetur, odit fugiat itaque quam. Obcaecati adipisci quisquam eligendi.</p>
       <button>Subscribe Now</button>
+    </div>
    </section>
    <!-- Subscribe Section - End -->
 
@@ -126,7 +142,7 @@
    <!-- Newsletter Section - End -->
 
    <!-- Footer Section - Start -->
-   <footer>
+   <footer id="site-footer">
        <p>©️ 2022 Orange All Right Reserved
     </p>
     <nav>
