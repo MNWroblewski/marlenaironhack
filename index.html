@@ -22,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif+Display:ital,wght@0,400;1,500&display=swap"
       rel="stylesheet"
     />
-    <!-- Icons -->   
+    <!-- Icons -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -41,49 +41,64 @@
       </nav>
     </header>
     <!-- Hero Section - Start  -->
-    <section id="hero">
-      <h1>Heading 1</h1>
+    <section id="hero" class="container">
+        <!-- DIV for Image -->
+        <div><img src="img/mobile-img.png" alt="">
+        </div>
+        <!-- DIV for Content -->
+        <div>
+      <h1>Subscribe today <br/> and get 
+        notified first when <br/> we 
+        launch Orange app!
+        </h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore iusto
         soluta aspernatur rem necessitatibus iste at deleniti ipsa vero non?
       </p>
-​
-      <input type="email" name="" id="" />
+
+      <input type="email" name="" id="" placeholder="Your email address"/>
       <button>Subscribe Now</button>
+    </div>
     </section>
     <!-- Hero Section - End -->
-​
+
     <!-- Features Section - Start -->
     <section id="features">
       <div class="container feat-wrapper">
         <!-- Card 1 - Start -->
-        <div>
-          <img src="https://source.unsplash.com/300x200/?coffee,latte" alt="" />
+        <div class="card">
+          <img src="img/illustration-1.png" alt="" />
           <h4>Lorem, ipsum dolor</h4>
+          <div class="divider"></div>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas natus
             nam quo asperiores illum voluptate!
           </p>
+          <a href="#" class="button-rounded">Learn More</a>
         </div>
         <!-- Card 1 - End -->
         <!-- Card 2 - Start -->
-        <div>
-          <img src="https://source.unsplash.com/300x200/?dog" alt="" />
+        <div class="card">
+          <img src="img/illustration-2.png" alt="" />
           <h4>Lorem, ipsum dolor</h4>
+          <div class="divider"></div>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas natus
             nam quo asperiores illum voluptate!
           </p>
+          <a href="#" class="button-rounded">Learn More</a>
         </div>
         <!-- Card 2 - End -->
         <!-- Card 3 - Start -->
-        <div>
-          <img src="https://source.unsplash.com/300x200/?portrait" alt="" />
+        <div class="card">
+          <img src="img/illustration-3.png" alt="" />
           <h4>Lorem, ipsum dolor</h4>
+          <div class="divider"></div>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas natus
             nam quo asperiores illum voluptate!
           </p>
+          <a href="#" class="button-rounded">Learn More</a>
         </div>
         <!-- Card 3 - End -->
       </div>
@@ -91,7 +106,7 @@
     <!-- Features Section - End -->
     <!-- Subscribe Section - Start -->
     <section id="subscribe" class="container">
-      <img src="https://source.unsplash.com/500x650/?apple,fruit" alt="" />
+      <img src="img/tree-circle.png" alt="" />
       <div>
         <h1>It tastes like Premium.</h1>
         <h3>Better than an apple.</h3>
@@ -107,12 +122,18 @@
       </div>
     </section>
     <!-- Subscribe Section - End -->
-​
+
     <!-- Testimonials Section - Start -->
-    <section>
-      <h1>What Our Customers Say</h1>
+    <section id="testimonials">
+        <img src="img/quotes.png" alt="" />
+
+      <h2>What Our <br/>Customers Say</h2>
+<div class="container quote-group">
+        
       <!-- Card 1 - Start -->
-      <img src="" alt="" />
+
+      <div class="quote-card quote-a">
+      <img src="img/little-quotes-w.png" alt="" />
       <blockquote>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
         consectetur velit eos corrupti similique nostrum temporibus accusantium
@@ -122,9 +143,13 @@
           <cite title="company">Company</cite>
         </footer>
       </blockquote>
+    </div>
       <!-- Card 1 - End -->
+
       <!-- Card 2 - Start -->
-      <img src="" alt="" />
+
+      <div class="quote-card quote-b">
+      <img src="img/little-quotes-o.png" alt="" />
       <blockquote>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
         consectetur velit eos corrupti similique nostrum temporibus accusantium
@@ -134,33 +159,24 @@
           <cite title="company">Company</cite>
         </footer>
       </blockquote>
-​
+    </div>
+
       <!-- Card 2 - End -->
-      <!-- Card 3 - Start -->
-      <img src="" alt="" />
-      <blockquote>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
-        consectetur velit eos corrupti similique nostrum temporibus accusantium
-        quos autem. Aspernatur.
-        <footer>
-          - <cite title="author">Person</cite>,
-          <cite title="company">Company</cite>
-        </footer>
-      </blockquote>
-​
-      <!-- Card 3 - End -->
+</div>
+
+     <div class="customer-background"></div>
     </section>
     <!-- Testimonials Section - End -->
-​
+
     <!-- Newsletter Section - Start -->
-    <section id="newsletter" class="container">
-      <h1>Subscribe today and get notified first!</h1>
+    <section id="newsletter">
+      <h3>Subscribe today and get notified first!</h3>
       <h4>Product launch in: 12 days</h4>
-      <input type="email" name="" id="" />
+      <input type="email" name="" id="" placeholder="Your email address"/>
       <button>Subscribe Now</button>
     </section>
     <!-- Newsletter Section - End -->
-​
+
     <!-- Footer Section - Start -->
     <footer id="site-footer">
       <p>© 2022 Orange All Right Reserved</p>
